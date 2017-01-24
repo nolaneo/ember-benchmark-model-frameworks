@@ -1,0 +1,24 @@
+{
+  "name": "ember-model",
+  "main": "ember-model.js",
+  "dependencies": {
+    "ember": "~1.13"
+  },
+  "devDependencies": {
+    "qunit": "~1.11"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "homepage": "https://github.com/intercom/ember-model",
+  "_release": "4d2ea516ab",
+  "_resolution": {
+    "type": "commit",
+    "commit": "4d2ea516ab191b1b453333eaf227c3638f83df38"
+  },
+  "_source": "git://github.com/intercom/ember-model.git",
+  "_target": "4d2ea516ab191b1b453333eaf227c3638f83df38",
+  "_originalSource": "intercom/ember-model"
+}

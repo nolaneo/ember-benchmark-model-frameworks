@@ -1,0 +1,10 @@
+{
+  "name": "test-model-frameworks",
+  "dependencies": {
+    "ember": "2.10.2",
+    "ember-cli-shims": "0.1.0",
+    "ember-cli-test-loader": "0.2.2",
+    "ember-qunit-notifications": "0.1.0",
+    "ember-model": "intercom/ember-model#4d2ea516ab191b1b453333eaf227c3638f83df38"
+  }
+}

@@ -1,0 +1,34 @@
+<h1>Ember Data Modelling Framework Benchmark</h1>
+
+<label>Number of models to create:</label>
+{{input type="number" value=totalLength}}
+
+<style type="text/css">
+  body {
+    font-family: monospace;
+  }
+</style>
+
+<hr/>
+
+{{#if emberDataResults}}
+  Ember Data Time: {{emberDataResults}} ms
+{{else}}
+  <span>Getting Ember Data Stats!</span>
+{{/if}}
+
+<hr/>
+
+{{#if emberModelResults}}
+  Ember Model Time: {{emberModelResults}}
+{{else}}
+  <span>Getting Ember Model Stats!</span>
+{{/if}}
+
+<hr/>
+
+{{difference}}
+
+<hr/>
+
+<button {{action 'rerun'}}>Re Run</button>
